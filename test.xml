@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="11.0.4" class="java.beans.XMLDecoder">
+ <object class="Instruments.Bow" id="Bow0">
+  <void class="Instruments.Bow" method="getField">
+   <string>bowLength</string>
+   <void method="set">
+    <object idref="Bow0"/>
+    <int>4</int>
+   </void>
+  </void>
+  <void class="Instruments.Bow" method="getField">
+   <string>position</string>
+   <void method="set">
+    <object idref="Bow0"/>
+    <object class="java.lang.Enum" method="valueOf">
+     <class>Instruments.Bow$Positioning</class>
+     <string>Neck</string>
+    </object>
+   </void>
+  </void>
+  <void class="Instruments.Pinching" method="getField">
+   <string>stringsAmount</string>
+   <void method="set">
+    <object idref="Bow0"/>
+    <int>13</int>
+   </void>
+  </void>
+  <void class="Instruments.Pinching" method="getField">
+   <string>formation</string>
+   <void method="set">
+    <object idref="Bow0"/>
+    <object class="java.lang.Enum" method="valueOf">
+     <class>Instruments.Pinching$guitarFormation</class>
+     <string>Standart</string>
+    </object>
+   </void>
+  </void>
+  <void class="Instruments.Instrument" method="getField">
+   <string>type</string>
+   <void method="set">
+    <object idref="Bow0"/>
+    <object class="java.lang.Enum" method="valueOf">
+     <class>Instruments.Instrument$InstrumentType</class>
+     <string>String</string>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>

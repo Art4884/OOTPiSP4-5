@@ -1,0 +1,87 @@
+{"java": {
+    "version": "11.0.4",
+    "class": "java.beans.XMLDecoder",
+    "object": {
+        "void": [
+            {
+                "void": {
+                    "method": "set",
+                    "int": 4,
+                    "object": {"idref": "Bow0"}
+                },
+                "method": "getField",
+                "string": "bowLength",
+                "class": "Instruments.Bow"
+            },
+            {
+                "void": {
+                    "method": "set",
+                    "object": [
+                        {"idref": "Bow0"},
+                        {
+                            "method": "valueOf",
+                            "string": "Neck",
+                            "class": [
+                                "java.lang.Enum",
+                                "Instruments.Bow$Positioning"
+                            ]
+                        }
+                    ]
+                },
+                "method": "getField",
+                "string": "position",
+                "class": "Instruments.Bow"
+            },
+            {
+                "void": {
+                    "method": "set",
+                    "int": 13,
+                    "object": {"idref": "Bow0"}
+                },
+                "method": "getField",
+                "string": "stringsAmount",
+                "class": "Instruments.Pinching"
+            },
+            {
+                "void": {
+                    "method": "set",
+                    "object": [
+                        {"idref": "Bow0"},
+                        {
+                            "method": "valueOf",
+                            "string": "Standart",
+                            "class": [
+                                "java.lang.Enum",
+                                "Instruments.Pinching$guitarFormation"
+                            ]
+                        }
+                    ]
+                },
+                "method": "getField",
+                "string": "formation",
+                "class": "Instruments.Pinching"
+            },
+            {
+                "void": {
+                    "method": "set",
+                    "object": [
+                        {"idref": "Bow0"},
+                        {
+                            "method": "valueOf",
+                            "string": "String",
+                            "class": [
+                                "java.lang.Enum",
+                                "Instruments.Instrument$InstrumentType"
+                            ]
+                        }
+                    ]
+                },
+                "method": "getField",
+                "string": "type",
+                "class": "Instruments.Instrument"
+            }
+        ],
+        "id": "Bow0",
+        "class": "Instruments.Bow"
+    }
+}}
